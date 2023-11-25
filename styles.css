@@ -2,6 +2,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 footer, header {
     background-color: #1F2937;
     color: #E5E7EB;
@@ -44,8 +52,13 @@ blockquote footer {
     color: F9FAF8;
 }
 
+.white-block {
+    flex-grow: 1;
+}
+
 .grey-block {
     background-color: #E5E7EB;
+    flex-grow: 1;
 }
 
 .action-panel {
